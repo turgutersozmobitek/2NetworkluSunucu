@@ -78,13 +78,6 @@ variable "vm_disk_size" {
 }
 
 
-
-variable "org_network_name" {
-    type        = string
-    description = "Network Adı:"
-    default     = "list"
-}
-
 variable "catalog_name" {
     type        = string
     description = "Catalog:"
@@ -98,6 +91,19 @@ variable "template_name" {
 }
 
 
+variable "org_network_name" {
+    type        = string
+    description = "Network Adı:"
+    default     = "list"
+}
+
+variable "adapter_type" {
+    type        = string
+    description = "Adapter Type:*"
+    default     = "list"
+
+}
+
 variable "vm_ip" {
     type        = string
     description = "IP Adresi:"
@@ -107,6 +113,12 @@ variable "org2_network_name" {
     type        = string
     description = "2.NW Adı:"
     default     = "list"
+}
+variable "2adapter_type" {
+    type        = string
+    description = "Adapter Type:*"
+    default     = "list"
+
 }
 
 
