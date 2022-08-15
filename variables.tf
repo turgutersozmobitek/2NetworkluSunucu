@@ -15,13 +15,13 @@ variable "cd_vdcadres" {
 
 variable "org_name" {
     type        = string
-    description = "Organizasyon İsmi:"
+    description = "Organizasyon İsmi:*"
     default     = "list"
 }
 
 variable "vdc_name" {
     type        = string
-    description = "VDC Adı:"
+    description = "VDC Adı:*"
     default     = "list"
 
 }
@@ -29,14 +29,20 @@ variable "vdc_name" {
 
 variable "vapp_name" {
     type        = string
-    description = "VAPP Adı:"
+    description = "VAPP Adı:*"
+    default     = "list"
+}
+
+variable "computer_name" {
+    type        = string
+    description = "Hostname:*"
     default     = "list"
 }
 
 
 variable "vm_name" {
     type        = string
-    description = "Sunucu Adı:"
+    description = "Sunucu Adı:*"
 }
 
 
@@ -46,28 +52,34 @@ variable "vm_description" {
     default     = "list"
 }
 
+variable "computer_name" {
+    
+    type        = string
+    description = "Comp.Name:*"
+}
+
 variable "vm_cpu" {
     type        = string
-    description = "CPU:"
+    description = "CPU:*"
     default     = "list"
 }
 
 variable "vm_cpu_core" {
     type        = string
-    description = "CPU Core:"
+    description = "CPU Core:*"
     default     = "list"
 }
 
 
 variable "vm_memory" {
     type        = string
-    description = "Memory:"
+    description = "Memory:*"
     default     = "list"
 }
 
 variable "vdc_storage_name" {
     type        = string
-    description = "Storage Policy:"
+    description = "Storage Policy:*"
     default     = "list"
 }
 
@@ -80,7 +92,7 @@ variable "vm_disk_size" {
 
 variable "catalog_name" {
     type        = string
-    description = "Catalog:"
+    description = "Catalog:*"
     default     = "list"
 }
 

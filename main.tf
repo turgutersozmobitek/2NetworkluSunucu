@@ -23,6 +23,7 @@ resource "vcd_vapp_org_network" "vappOrgNet2" {
 resource "vcd_vapp_vm" "web1" {
   vapp_name     = var.vapp_name
   name          = var.vm_name
+  computer_name = var.computer_name
   catalog_name  = var.catalog_name
   template_name = var.template_name
   memory        = var.vm_memory
