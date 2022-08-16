@@ -53,7 +53,6 @@ variable "vm_description" {
 }
 
 variable "computer_name" {
-    
     type        = string
     description = "Comp.Name:*"
 }
