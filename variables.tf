@@ -23,7 +23,6 @@ variable "vdc_name" {
     type        = string
     description = "VDC Adı:*"
     default     = "list"
-
 }
 
 
