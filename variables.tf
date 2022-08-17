@@ -3,6 +3,7 @@ variable "cd_username" {
     type        = string
     description = "vCD UserName*"
 }
+
 variable "cd_password" {
     type        = string
     description = "vCD Password*"
