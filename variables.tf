@@ -105,7 +105,6 @@ variable "adapter_type" {
     type        = string
     description = "Adapter Type:*"
     default     = "list"
-
 }
 
 variable "vm_ip" {
@@ -122,7 +121,6 @@ variable "2adapter_type" {
     type        = string
     description = "Adapter Type:*"
     default     = "list"
-
 }
 
 
