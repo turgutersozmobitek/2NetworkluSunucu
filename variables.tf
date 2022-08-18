@@ -68,12 +68,6 @@ variable "vm_memory" {
     default     = "list"
 }
 
-variable "vdc_storage_name" {
-    type        = string
-    description = "Storage Policy:*"
-    default     = "list"
-}
-
 variable "vm_disk_size" {
     type        = string
     description = "Disk:*"
