@@ -33,7 +33,6 @@ variable "vapp_name" {
     default     = "list"
 }
 
-
 variable "vm_name" {
     type        = string
     description = "Sunucu Adı:*"
