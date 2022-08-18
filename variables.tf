@@ -26,7 +26,6 @@ variable "vdc_name" {
     default     = "list"
 }
 
-
 variable "vapp_name" {
     type        = string
     description = "vAPP Adı:*"
