@@ -3,6 +3,7 @@ variable "cd_username" {
     type        = string
     description = "vCD UserName*"
 }
+
 variable "cd_password" {
     type        = string
     description = "vCD Password*"
@@ -38,7 +39,6 @@ variable "vm_name" {
     description = "Sunucu Adı:*"
 }
 
-
 variable "vm_description" {
     type        = string
     description = "MANAGED/UNMANAGED:"
@@ -62,7 +62,6 @@ variable "vm_cpu_core" {
     default     = "list"
 }
 
-
 variable "vm_memory" {
     type        = string
     description = "Memory:*"
@@ -81,7 +80,6 @@ variable "vm_disk_size" {
     default     = "list"
 }
 
-
 variable "catalog_name" {
     type        = string
     description = "Catalog:*"
@@ -93,7 +91,6 @@ variable "template_name" {
   description = "OS:*"
   default     = "list"
 }
-
 
 variable "org_network_name" {
     type        = string
@@ -117,12 +114,12 @@ variable "org2_network_name" {
     description = "2.NW Adı:*"
     default     = "list"
 }
+
 variable "2adapter_type" {
     type        = string
     description = "Adapter Type:*"
     default     = "list"
 }
-
 
 variable "vmorg2_ip" {
     type        = string
