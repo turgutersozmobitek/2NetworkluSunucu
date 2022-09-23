@@ -57,6 +57,7 @@ resource "vcd_vapp_vm" "web1" {
     ip_allocation_mode = "MANUAL"
     ip                 = var.vmorg2_ip
     adapter_type       = var.2adapter_type
+    
     is_primary         = false
   }
 
