@@ -1,24 +1,24 @@
 #bir oluşturalım 
 
-resource "vcd_vapp_org_network" "vappOrgNet" {
-  org = var.org_name
-  vdc = var.vdc_name
-  vapp_name = var.vapp_name
+#resource "vcd_vapp_org_network" "vappOrgNet" {
+#  org = var.org_name
+#  vdc = var.vdc_name
+#  vapp_name = var.vapp_name
 
   # Comment below line to create an isolated vApp network
-  org_network_name = var.org_network_name
+#  org_network_name = var.org_network_name
  
-}
+#}
 
-resource "vcd_vapp_org_network" "vappOrgNet2" {
-  org = var.org_name
-  vdc = var.vdc_name
-  vapp_name = var.vapp_name
+#resource "vcd_vapp_org_network" "vappOrgNet2" {
+#  org = var.org_name
+#  vdc = var.vdc_name
+#  vapp_name = var.vapp_name
 
   # Comment below line to create an isolated vApp network
-  org_network_name = var.org2_network_name
+#  org_network_name = var.org2_network_name
  
-}
+#}
 
 resource "vcd_vapp_vm" "web1" {
   vapp_name     = var.vapp_name
